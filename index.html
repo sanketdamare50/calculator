@@ -17,7 +17,7 @@
 				<div>
 					<input class="button" type="button" value="C" onclick="op.value='' ">
 					<input class="button" type="button" value="AC" onclick="op.value='' " />
-					<input type="button" value="/" onclick="op.value='/'" class="opr" />
+					<input type="button" value="/" onclick="op.value='/'" class+="opr" />
 					<input type="button" value="%" onclick="op.value='%'" class="opr" />
 				</div>
 
@@ -37,13 +37,15 @@
 					<input type="button" value="3" onclick="op.value+='3'">
 					<input type="button" value="2" onclick="op.value+='2'"/>
 					<input type="button" value="1" onclick="op.value+='1'"/>
-					<input type="button" value="*" onclick="op.value+='*'" class="opr"/>	
+					<input type="button" value="*" onclick="op.value+='*'" class="opr"/>
 				</div>
+
 				<div>
 					<input type="button" value="0" onclick="op.value+='0'">
 					<input type="button" value="." onclick="op.value+='.'"/>
 					<input type="button" class="eq" value="=" onclick="op.value=eval(op.value)" class="opr"/>
 				</div>
+				<h3 class="name">CALCULATOR</h3>
 			</form>
 		</div>
 	</div>
